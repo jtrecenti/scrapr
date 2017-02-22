@@ -1,0 +1,17 @@
+Package: scrapr
+Title: Tools for web scraping
+Version: 0.0.0.9000
+Authors@R: person("Julio", "Trecenti", email = "j@jtrecenti.com", role = c("aut", "cre"))
+Description: Wraps rvest and xml2 functions and implements some sites defaults, like aspx viewstate and java faces.
+Depends: R (>= 3.3.2)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: xml2,
+    rvest,
+    magrittr,
+    dplyr,
+    httr,
+    rstudioapi,
+    readr
+RoxygenNote: 6.0.1
